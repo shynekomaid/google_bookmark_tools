@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Json to HTML bookmarks",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal",
+      "args": "--mode=j2b --input=examples/min_example.json --output=output/bookmarks.html"
+    },
+    {
+      "name": "HTML to Json bookmarks",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal",
+      "args": "--mode=b2j --input=examples/bookmarks.html --output=output/bookmarks.json"
+    }
+  ]
+}
