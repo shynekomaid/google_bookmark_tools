@@ -1,0 +1,21 @@
+{
+  "name": "Root",
+  "description": "Root folder",
+  "type": "folder",
+  "contain": [
+    {
+      "name": "Quick",
+      "description": "Quick folder",
+      "type": "folder",
+      "contain": [
+        {
+          "name": "YouTube",
+          "human_name": "You Tube",
+          "description": "You Tube Web Site",
+          "type": "url",
+          "url": "https://www.youtube.com"
+        }
+      ]
+    }
+  ]
+}
